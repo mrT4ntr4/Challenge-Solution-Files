@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Premain-Class: com.dark.Agent
+Built-By: mrT4ntr4
+Can-Retransform-Classes: true
+Build-Jdk: 1.8.0_221
+Created-By: Maven Integration for Eclipse
+
