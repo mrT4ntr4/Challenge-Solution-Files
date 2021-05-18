@@ -1,0 +1,55 @@
+digraph asm_graph {
+0 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_0</td></tr><tr><td align="left">PUSH_IMM   0x0</td></tr><tr><td align="left">POP        R16</td></tr><tr><td align="left">ROMFETCH   R14</td></tr><tr><td align="left">PUSH_IMM   0x1</td></tr><tr><td align="left">PUSH_REG   R14</td></tr><tr><td align="left">PUSH_IMM   0x117052C0</td></tr><tr><td align="left">MUL        </td></tr><tr><td align="left">JNE        loc_44</td></tr></table>> ];
+1 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_44</td></tr><tr><td align="left">ROMFETCH   R14</td></tr><tr><td align="left">PUSH_REG   R14</td></tr><tr><td align="left">PUSH_IMM   0x77F3</td></tr><tr><td align="left">POP        R15</td></tr><tr><td align="left">MOD        R15</td></tr><tr><td align="left">PUSH_IMM   0x4926</td></tr><tr><td align="left">JE         loc_8c</td></tr></table>> ];
+2 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_3c</td></tr><tr><td align="left">INC        R16</td></tr></table>> ];
+3 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_8c</td></tr><tr><td align="left">PUSH_REG   R14</td></tr><tr><td align="left">PUSH_IMM   0x7C49</td></tr><tr><td align="left">POP        R15</td></tr><tr><td align="left">MOD        R15</td></tr><tr><td align="left">PUSH_IMM   0x3159</td></tr><tr><td align="left">JE         loc_cc</td></tr></table>> ];
+4 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_7c</td></tr><tr><td align="left">PUSH_IMM   0x0</td></tr><tr><td align="left">POP        R16</td></tr></table>> ];
+5 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_cc</td></tr><tr><td align="left">ROMFETCH   R14</td></tr><tr><td align="left">PUSH_IMM   0x1</td></tr><tr><td align="left">PUSH_REG   R14</td></tr><tr><td align="left">PUSH_IMM   0x278BCE9D</td></tr><tr><td align="left">MUL        </td></tr><tr><td align="left">JNE        loc_100</td></tr></table>> ];
+6 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_bc</td></tr><tr><td align="left">PUSH_IMM   0x0</td></tr><tr><td align="left">POP        R16</td></tr></table>> ];
+7 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_100</td></tr><tr><td align="left">ROMFETCH   R14</td></tr><tr><td align="left">PUSH_REG   R14</td></tr><tr><td align="left">PUSH_IMM   0x77F3</td></tr><tr><td align="left">POP        R15</td></tr><tr><td align="left">MOD        R15</td></tr><tr><td align="left">PUSH_IMM   0x28B2</td></tr><tr><td align="left">JE         loc_148</td></tr></table>> ];
+8 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_f8</td></tr><tr><td align="left">INC        R16</td></tr></table>> ];
+9 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_148</td></tr><tr><td align="left">PUSH_REG   R14</td></tr><tr><td align="left">PUSH_IMM   0x7C49</td></tr><tr><td align="left">POP        R15</td></tr><tr><td align="left">MOD        R15</td></tr><tr><td align="left">PUSH_IMM   0x44A9</td></tr><tr><td align="left">JE         loc_188</td></tr></table>> ];
+10 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_138</td></tr><tr><td align="left">PUSH_IMM   0x0</td></tr><tr><td align="left">POP        R16</td></tr></table>> ];
+11 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_188</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">PUSH_IMM   0x2</td></tr><tr><td align="left">JE         loc_1a8</td></tr></table>> ];
+12 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_178</td></tr><tr><td align="left">PUSH_IMM   0x0</td></tr><tr><td align="left">POP        R16</td></tr></table>> ];
+13 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_1a8</td></tr><tr><td align="left">PUTCHAR_IMM 0x43</td></tr><tr><td align="left">PUTCHAR_IMM 0x6F</td></tr><tr><td align="left">PUTCHAR_IMM 0x6E</td></tr><tr><td align="left">PUTCHAR_IMM 0x67</td></tr><tr><td align="left">PUTCHAR_IMM 0x72</td></tr><tr><td align="left">PUTCHAR_IMM 0x61</td></tr><tr><td align="left">PUTCHAR_IMM 0x74</td></tr><tr><td align="left">PUTCHAR_IMM 0x75</td></tr><tr><td align="left">PUTCHAR_IMM 0x6C</td></tr><tr><td align="left">PUTCHAR_IMM 0x61</td></tr><tr><td align="left">PUTCHAR_IMM 0x74</td></tr><tr><td align="left">PUTCHAR_IMM 0x69</td></tr><tr><td align="left">PUTCHAR_IMM 0x6F</td></tr><tr><td align="left">PUTCHAR_IMM 0x6E</td></tr><tr><td align="left">PUTCHAR_IMM 0x73</td></tr><tr><td align="left">PUTCHAR_IMM 0x2C</td></tr><tr><td align="left">PUTCHAR_IMM 0x20</td></tr><tr><td align="left">PUTCHAR_IMM 0x79</td></tr><tr><td align="left">PUTCHAR_IMM 0x6F</td></tr><tr><td align="left">PUTCHAR_IMM 0x75</td></tr><tr><td align="left">PUTCHAR_IMM 0x20</td></tr><tr><td align="left">PUTCHAR_IMM 0x77</td></tr><tr><td align="left">PUTCHAR_IMM 0x6F</td></tr><tr><td align="left">PUTCHAR_IMM 0x6E</td></tr><tr><td align="left">PUTCHAR_IMM 0x2E</td></tr><tr><td align="left">PUTCHAR_IMM 0x20</td></tr><tr><td align="left">PUTCHAR_IMM 0x56</td></tr><tr><td align="left">PUTCHAR_IMM 0x61</td></tr><tr><td align="left">PUTCHAR_IMM 0x6C</td></tr><tr><td align="left">PUTCHAR_IMM 0x69</td></tr><tr><td align="left">PUTCHAR_IMM 0x64</td></tr><tr><td align="left">PUTCHAR_IMM 0x61</td></tr><tr><td align="left">PUTCHAR_IMM 0x74</td></tr><tr><td align="left">PUTCHAR_IMM 0x65</td></tr><tr><td align="left">PUTCHAR_IMM 0x20</td></tr><tr><td align="left">PUTCHAR_IMM 0x77</td></tr><tr><td align="left">PUTCHAR_IMM 0x69</td></tr><tr><td align="left">PUTCHAR_IMM 0x74</td></tr><tr><td align="left">PUTCHAR_IMM 0x68</td></tr><tr><td align="left">PUTCHAR_IMM 0x20</td></tr><tr><td align="left">PUTCHAR_IMM 0x46</td></tr><tr><td align="left">PUTCHAR_IMM 0x43</td></tr><tr><td align="left">PUTCHAR_IMM 0x53</td></tr><tr><td align="left">PUTCHAR_IMM 0x43</td></tr><tr><td align="left">PUTCHAR_IMM 0x7B</td></tr><tr><td align="left">PUTCHAR_IMM 0x3C</td></tr><tr><td align="left">PUTCHAR_IMM 0x69</td></tr><tr><td align="left">PUTCHAR_IMM 0x6E</td></tr><tr><td align="left">PUTCHAR_IMM 0x70</td></tr><tr><td align="left">PUTCHAR_IMM 0x75</td></tr><tr><td align="left">PUTCHAR_IMM 0x74</td></tr><tr><td align="left">PUTCHAR_IMM 0x3E</td></tr><tr><td align="left">PUTCHAR_IMM 0x7D</td></tr><tr><td align="left">PUTCHAR_IMM 0xA</td></tr><tr><td align="left">EXIT_IMM   0x0</td></tr></table>> ];
+14 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_1a0</td></tr><tr><td align="left">JMP        loc_360</td></tr></table>> ];
+15 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_360</td></tr><tr><td align="left">PUTCHAR_IMM 0x4E</td></tr><tr><td align="left">PUTCHAR_IMM 0x6F</td></tr><tr><td align="left">PUTCHAR_IMM 0x6F</td></tr><tr><td align="left">PUTCHAR_IMM 0x6F</td></tr><tr><td align="left">PUTCHAR_IMM 0x6F</td></tr><tr><td align="left">PUTCHAR_IMM 0x6F</td></tr><tr><td align="left">PUTCHAR_IMM 0x6F</td></tr><tr><td align="left">PUTCHAR_IMM 0x2C</td></tr><tr><td align="left">PUTCHAR_IMM 0x20</td></tr><tr><td align="left">PUTCHAR_IMM 0x64</td></tr><tr><td align="left">PUTCHAR_IMM 0x61</td></tr><tr><td align="left">PUTCHAR_IMM 0x6D</td></tr><tr><td align="left">PUTCHAR_IMM 0x6E</td></tr><tr><td align="left">PUTCHAR_IMM 0x20</td></tr><tr><td align="left">PUTCHAR_IMM 0x79</td></tr><tr><td align="left">PUTCHAR_IMM 0x6F</td></tr><tr><td align="left">PUTCHAR_IMM 0x75</td></tr><tr><td align="left">PUTCHAR_IMM 0x20</td></tr><tr><td align="left">PUTCHAR_IMM 0x6C</td></tr><tr><td align="left">PUTCHAR_IMM 0x6F</td></tr><tr><td align="left">PUTCHAR_IMM 0x73</td></tr><tr><td align="left">PUTCHAR_IMM 0x74</td></tr><tr><td align="left">PUTCHAR_IMM 0x21</td></tr><tr><td align="left">PUTCHAR_IMM 0xA</td></tr><tr><td align="left">EXIT_IMM   0x1</td></tr></table>> ];
+0 -> 1[color="limegreen"];
+0 -> 2[color="red"];
+2 -> 1[color="blue"];
+1 -> 4[color="red"];
+8 -> 7[color="blue"];
+7 -> 9[color="limegreen"];
+7 -> 10[color="red"];
+10 -> 9[color="blue"];
+9 -> 11[color="limegreen"];
+9 -> 12[color="red"];
+12 -> 11[color="blue"];
+11 -> 13[color="limegreen"];
+11 -> 14[color="red"];
+14 -> 15[color="blue"];
+1 -> 3[color="limegreen"];
+3 -> 6[color="red"];
+3 -> 5[color="limegreen"];
+5 -> 7[color="limegreen"];
+5 -> 8[color="red"];
+4 -> 3[color="blue"];
+6 -> 5[color="blue"];
+}

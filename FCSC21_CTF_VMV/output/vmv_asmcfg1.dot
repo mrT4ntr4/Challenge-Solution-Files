@@ -1,0 +1,289 @@
+digraph asm_graph {
+0 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_0</td></tr><tr><td align="left">MEMSHIFT_IMM 0x400</td></tr><tr><td align="left">PUSH_REG   VM_MEM_PTR</td></tr><tr><td align="left">POP        R16</td></tr><tr><td align="left">PUSH_IMM   0x11</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMSHIFT_REG VM_MEM_PTR</td></tr><tr><td align="left">PUSH_REG   VM_MEM_PTR</td></tr><tr><td align="left">POP        R3</td></tr><tr><td align="left">ROMFETCH   R0</td></tr><tr><td align="left">MEMSHIFT_REG R0</td></tr><tr><td align="left">PUSH_REG   VM_MEM_PTR</td></tr><tr><td align="left">POP        R14</td></tr><tr><td align="left">PUSH_REG   R3</td></tr><tr><td align="left">PUSH_IMM   0x0</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMSTORE   R14</td></tr><tr><td align="left">PUSH_IMM   0x0</td></tr><tr><td align="left">POP        R1</td></tr></table>> ];
+1 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_e8</td></tr><tr><td align="left">PUSH_IMM   0x8929D1E</td></tr><tr><td align="left">POP        R2</td></tr><tr><td align="left">PUSH_IMM   0x39EE8310</td></tr><tr><td align="left">POP        R11</td></tr></table>> ];
+2 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_ac</td></tr><tr><td align="left">ROMFETCH   R5</td></tr><tr><td align="left">PUSH_REG   R14</td></tr><tr><td align="left">PUSH_REG   R1</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMSTORE   R5</td></tr><tr><td align="left">INC        R1</td></tr><tr><td align="left">JMP        loc_94</td></tr></table>> ];
+4 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_110</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x952DB75F</td></tr><tr><td align="left">JE         loc_cb8</td></tr></table>> ];
+5 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_94</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_REG   R1</td></tr><tr><td align="left">JE         loc_e8</td></tr></table>> ];
+6 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_cb8</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+7 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_128</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x140C2CF8</td></tr><tr><td align="left">JE         loc_bcc</td></tr></table>> ];
+8 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_cc0</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">CALL       loc_e24</td></tr></table>> ];
+9 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_bcc</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+10 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_140</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x4517CC48</td></tr><tr><td align="left">JE         loc_d70</td></tr></table>> ];
+12 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_cd0</td></tr><tr><td align="left">EXIT_REG   R0</td></tr></table>> ];
+13 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_d70</td></tr><tr><td align="left">PUSH_IMM   0x5</td></tr><tr><td align="left">PUSH_REG   R3</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R0</td></tr><tr><td align="left">PUSH_IMM   0x0</td></tr><tr><td align="left">PUSH_REG   R3</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMSTORE   R0</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+14 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_158</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0xE80C7BE2</td></tr><tr><td align="left">JE         loc_6e8</td></tr></table>> ];
+15 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_bd4</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x39EE8310</td></tr><tr><td align="left">XOR        </td></tr><tr><td align="left">PUSH_IMM   0x3F</td></tr><tr><td align="left">AND        </td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">CALL       loc_e24</td></tr></table>> ];
+16 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_ce0</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x0</td></tr><tr><td align="left">PUSH_REG   R3</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R0</td></tr><tr><td align="left">PUSH_IMM   0x5</td></tr><tr><td align="left">PUSH_REG   R3</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMSTORE   R0</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        R0</td></tr><tr><td align="left">PUSH_IMM   0x0</td></tr><tr><td align="left">PUSH_REG   R3</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMSTORE   R0</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+17 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_108</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+18 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_6e8</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+19 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_170</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x950885B3</td></tr><tr><td align="left">JE         loc_cd8</td></tr></table>> ];
+20 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_c04</td></tr><tr><td align="left">DEC        R0</td></tr><tr><td align="left">PUSH_REG   R3</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMSTORE   R0</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+21 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_6f0</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x39EE8310</td></tr><tr><td align="left">XOR        </td></tr><tr><td align="left">PUSH_IMM   0x3F</td></tr><tr><td align="left">AND        </td></tr><tr><td align="left">PUSH_REG   R3</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">PUSH_IMM   0x6</td></tr><tr><td align="left">PUSH_REG   R3</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R0</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R0</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMSTORE   R0</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+22 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_cd8</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+23 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_188</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0xF85712C3</td></tr><tr><td align="left">JE         loc_358</td></tr></table>> ];
+24 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_358</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+25 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_1a0</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0xD708325C</td></tr><tr><td align="left">JE         loc_444</td></tr></table>> ];
+26 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_360</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">CALL       loc_e24</td></tr></table>> ];
+27 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_444</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+28 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_1b8</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x1688047</td></tr><tr><td align="left">JE         loc_980</td></tr></table>> ];
+29 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_370</td></tr><tr><td align="left">PUTCHAR_REG R0</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+30 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_980</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R0</td></tr><tr><td align="left">DEC        R16</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R5</td></tr><tr><td align="left">DEC        R16</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_REG   R5</td></tr><tr><td align="left">XOR        </td></tr><tr><td align="left">INC        R16</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">POP        R0</td></tr><tr><td align="left">MEMSTORE   R0</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+31 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_1d0</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x54D4C1E6</td></tr><tr><td align="left">JE         loc_8fc</td></tr></table>> ];
+32 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_44c</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">POP        R15</td></tr><tr><td align="left">PUSH_REG   R3</td></tr><tr><td align="left">PUSH_IMM   0x0</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R5</td></tr><tr><td align="left">PUSH_REG   R5</td></tr><tr><td align="left">PUSH_REG   R15</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        R5</td></tr><tr><td align="left">MEMSTORE   R5</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+33 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_8fc</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R0</td></tr><tr><td align="left">DEC        R16</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R5</td></tr><tr><td align="left">DEC        R16</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_REG   R5</td></tr><tr><td align="left">MUL        </td></tr><tr><td align="left">INC        R16</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">POP        R0</td></tr><tr><td align="left">MEMSTORE   R0</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+34 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_1e8</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0xA9475B13</td></tr><tr><td align="left">JE         loc_770</td></tr></table>> ];
+35 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_770</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R0</td></tr><tr><td align="left">DEC        R16</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R5</td></tr><tr><td align="left">DEC        R16</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_REG   R5</td></tr><tr><td align="left">AND        </td></tr><tr><td align="left">INC        R16</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">POP        R0</td></tr><tr><td align="left">MEMSTORE   R0</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+36 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_200</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x29CC50C7</td></tr><tr><td align="left">JE         loc_b68</td></tr></table>> ];
+37 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_b68</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+38 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_218</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0xBF5E62BA</td></tr><tr><td align="left">JE         loc_4ac</td></tr></table>> ];
+39 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_b70</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x39EE8310</td></tr><tr><td align="left">XOR        </td></tr><tr><td align="left">PUSH_IMM   0x3F</td></tr><tr><td align="left">AND        </td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">CALL       loc_e24</td></tr></table>> ];
+40 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_4ac</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+41 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_230</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x81761C59</td></tr><tr><td align="left">JE         loc_67c</td></tr></table>> ];
+42 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_ba0</td></tr><tr><td align="left">INC        R0</td></tr><tr><td align="left">PUSH_REG   R3</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMSTORE   R0</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+43 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_67c</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+44 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_248</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x2445BAFC</td></tr><tr><td align="left">JE         loc_878</td></tr></table>> ];
+45 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_4b4</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">POP        R6</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R0</td></tr><tr><td align="left">DEC        R16</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R5</td></tr><tr><td align="left">DEC        R16</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_REG   R5</td></tr><tr><td align="left">JE         loc_524</td></tr></table>> ];
+46 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_878</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R0</td></tr><tr><td align="left">DEC        R16</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R5</td></tr><tr><td align="left">DEC        R16</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_REG   R5</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">INC        R16</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">POP        R0</td></tr><tr><td align="left">MEMSTORE   R0</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+47 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_260</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x37D5991B</td></tr><tr><td align="left">JE         loc_380</td></tr></table>> ];
+48 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_684</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">CALL       loc_e24</td></tr></table>> ];
+49 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_524</td></tr><tr><td align="left">PUSH_REG   R3</td></tr><tr><td align="left">PUSH_IMM   0x0</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        R0</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R5</td></tr><tr><td align="left">PUSH_REG   R5</td></tr><tr><td align="left">PUSH_REG   R6</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        R5</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMSTORE   R5</td></tr></table>> ];
+50 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_51c</td></tr><tr><td align="left">JMP        loc_58c</td></tr></table>> ];
+51 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_380</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+52 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_278</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0xEEF14B6E</td></tr><tr><td align="left">JE         loc_3f0</td></tr></table>> ];
+53 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_694</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x6</td></tr><tr><td align="left">PUSH_REG   R3</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R0</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">POP        R0</td></tr><tr><td align="left">MEMSTORE   R0</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+54 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_58c</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+55 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_388</td></tr><tr><td align="left">INC        R16</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMSTORE   R0</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+56 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_3f0</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+57 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_290</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x3BD7549B</td></tr><tr><td align="left">JE         loc_3b0</td></tr></table>> ];
+58 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_3f8</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x39EE8310</td></tr><tr><td align="left">XOR        </td></tr><tr><td align="left">PUSH_IMM   0x3F</td></tr><tr><td align="left">AND        </td></tr><tr><td align="left">PUSH_REG   R3</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">ROMFETCH   R5</td></tr><tr><td align="left">MEMSTORE   R5</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+59 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_3b0</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+60 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_2a8</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x56AE0803</td></tr><tr><td align="left">JE         loc_594</td></tr></table>> ];
+61 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_3b8</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">CALL       loc_e24</td></tr></table>> ];
+62 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_594</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+63 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_2c0</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0xB46465F</td></tr><tr><td align="left">JE         loc_a04</td></tr></table>> ];
+64 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_3c8</td></tr><tr><td align="left">INC        R16</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMSTORE   R0</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+65 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_a04</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+66 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_2d8</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x8032F32E</td></tr><tr><td align="left">JE         loc_a44</td></tr></table>> ];
+67 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_59c</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">POP        R6</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R0</td></tr><tr><td align="left">DEC        R16</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R5</td></tr><tr><td align="left">DEC        R16</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_REG   R5</td></tr><tr><td align="left">JNE        loc_60c</td></tr></table>> ];
+68 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_a44</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+69 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_2f0</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x87AB3B02</td></tr><tr><td align="left">JE         loc_a54</td></tr></table>> ];
+70 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_a0c</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_REG   R2</td></tr><tr><td align="left">XOR        </td></tr><tr><td align="left">PUSH_IMM   0xFF</td></tr><tr><td align="left">AND        </td></tr><tr><td align="left">POP        R0</td></tr><tr><td align="left">PUTCHAR_REG R0</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+71 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_60c</td></tr><tr><td align="left">PUSH_REG   R3</td></tr><tr><td align="left">PUSH_IMM   0x0</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        R0</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R5</td></tr><tr><td align="left">PUSH_REG   R5</td></tr><tr><td align="left">PUSH_REG   R6</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        R5</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMSTORE   R5</td></tr></table>> ];
+72 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_604</td></tr><tr><td align="left">JMP        loc_674</td></tr></table>> ];
+73 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_a54</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+74 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_308</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0xFB0A90EC</td></tr><tr><td align="left">JE         loc_aa0</td></tr></table>> ];
+75 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_a4c</td></tr><tr><td align="left">EXIT_REG   R0</td></tr></table>> ];
+76 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_674</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+77 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_aa0</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+78 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_320</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0xEE68C600</td></tr><tr><td align="left">JE         loc_afc</td></tr></table>> ];
+79 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_a5c</td></tr><tr><td align="left">MEMSHIFT_REG R0</td></tr><tr><td align="left">PUSH_REG   VM_MEM_PTR</td></tr><tr><td align="left">POP        R5</td></tr><tr><td align="left">PUSH_IMM   0x6</td></tr><tr><td align="left">PUSH_REG   R3</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMSTORE   R5</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+80 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_aa8</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">CALL       loc_e24</td></tr></table>> ];
+81 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_afc</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+82 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_338</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x5DCC45A4</td></tr><tr><td align="left">JE         loc_c30</td></tr></table>> ];
+83 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_ab8</td></tr><tr><td align="left">MEMSHIFT_REG R0</td></tr><tr><td align="left">PUSH_REG   VM_MEM_PTR</td></tr><tr><td align="left">POP        R5</td></tr><tr><td align="left">PUSH_IMM   0x6</td></tr><tr><td align="left">PUSH_REG   R3</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMSTORE   R5</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+84 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_c30</td></tr><tr><td align="left">CALL       loc_dc0</td></tr></table>> ];
+85 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_350</td></tr><tr><td align="left">EXIT_IMM   0x1</td></tr></table>> ];
+86 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_b04</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">PUSH_IMM   0x39EE8310</td></tr><tr><td align="left">XOR        </td></tr><tr><td align="left">PUSH_IMM   0x3F</td></tr><tr><td align="left">AND        </td></tr><tr><td align="left">PUSH_REG   R3</td></tr><tr><td align="left">ADD        </td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R5</td></tr><tr><td align="left">DEC        R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMSTORE   R5</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+87 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_c38</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">CALL       loc_e24</td></tr></table>> ];
+88 [
+shape="Mrecord" fontname="Courier New"label =<<table border="0" cellborder="0" cellpadding="3"><tr><td align="center" colspan="2" bgcolor="grey">loc_c48</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">POP        R5</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMFETCH   R0</td></tr><tr><td align="left">DEC        R16</td></tr><tr><td align="left">PUSH_REG   R0</td></tr><tr><td align="left">MOD        R5</td></tr><tr><td align="left">POP        R5</td></tr><tr><td align="left">INC        R16</td></tr><tr><td align="left">PUSH_REG   R16</td></tr><tr><td align="left">POP        VM_MEM_PTR</td></tr><tr><td align="left">MEMSTORE   R5</td></tr><tr><td align="left">JMP        loc_108</td></tr></table>> ];
+4 -> 6[color="limegreen"];
+4 -> 7[color="red"];
+6 -> 8[color="blue"];
+7 -> 10[color="red"];
+7 -> 9[color="limegreen"];
+8 -> 12[color="blue"];
+10 -> 13[color="limegreen"];
+10 -> 14[color="red"];
+9 -> 15[color="blue"];
+14 -> 18[color="limegreen"];
+14 -> 19[color="red"];
+15 -> 20[color="blue"];
+18 -> 21[color="blue"];
+19 -> 23[color="red"];
+23 -> 24[color="limegreen"];
+23 -> 25[color="red"];
+24 -> 26[color="blue"];
+25 -> 28[color="red"];
+25 -> 27[color="limegreen"];
+26 -> 29[color="blue"];
+28 -> 30[color="limegreen"];
+28 -> 31[color="red"];
+27 -> 32[color="blue"];
+31 -> 34[color="red"];
+31 -> 33[color="limegreen"];
+34 -> 35[color="limegreen"];
+34 -> 36[color="red"];
+36 -> 37[color="limegreen"];
+36 -> 38[color="red"];
+37 -> 39[color="blue"];
+38 -> 41[color="red"];
+38 -> 40[color="limegreen"];
+39 -> 42[color="blue"];
+41 -> 44[color="red"];
+41 -> 43[color="limegreen"];
+40 -> 45[color="blue"];
+44 -> 46[color="limegreen"];
+44 -> 47[color="red"];
+43 -> 48[color="blue"];
+45 -> 49[color="limegreen"];
+45 -> 50[color="red"];
+47 -> 51[color="limegreen"];
+47 -> 52[color="red"];
+48 -> 53[color="blue"];
+51 -> 55[color="blue"];
+52 -> 56[color="limegreen"];
+52 -> 57[color="red"];
+56 -> 58[color="blue"];
+57 -> 59[color="limegreen"];
+57 -> 60[color="red"];
+59 -> 61[color="blue"];
+60 -> 63[color="red"];
+60 -> 62[color="limegreen"];
+61 -> 64[color="blue"];
+63 -> 66[color="red"];
+63 -> 65[color="limegreen"];
+62 -> 67[color="blue"];
+66 -> 69[color="red"];
+66 -> 68[color="limegreen"];
+65 -> 70[color="blue"];
+67 -> 71[color="limegreen"];
+67 -> 72[color="red"];
+69 -> 74[color="red"];
+69 -> 73[color="limegreen"];
+68 -> 75[color="blue"];
+75 -> 73[color="blue"];
+74 -> 77[color="limegreen"];
+74 -> 78[color="red"];
+73 -> 79[color="blue"];
+77 -> 80[color="blue"];
+78 -> 82[color="red"];
+78 -> 81[color="limegreen"];
+80 -> 83[color="blue"];
+82 -> 84[color="limegreen"];
+82 -> 85[color="red"];
+81 -> 86[color="blue"];
+84 -> 87[color="blue"];
+87 -> 88[color="blue"];
+20 -> 17[color="blue"];
+21 -> 17[color="blue"];
+35 -> 17[color="blue"];
+70 -> 17[color="blue"];
+13 -> 17[color="blue"];
+88 -> 17[color="blue"];
+58 -> 17[color="blue"];
+64 -> 17[color="blue"];
+16 -> 17[color="blue"];
+83 -> 17[color="blue"];
+79 -> 17[color="blue"];
+29 -> 17[color="blue"];
+53 -> 17[color="blue"];
+32 -> 17[color="blue"];
+46 -> 17[color="blue"];
+33 -> 17[color="blue"];
+55 -> 17[color="blue"];
+42 -> 17[color="blue"];
+86 -> 17[color="blue"];
+30 -> 17[color="blue"];
+17 -> 4[color="blue"];
+50 -> 54[color="blue"];
+54 -> 17[color="blue"];
+19 -> 22[color="limegreen"];
+22 -> 16[color="blue"];
+2 -> 5[color="blue"];
+5 -> 2[color="red"];
+5 -> 1[color="limegreen"];
+72 -> 76[color="blue"];
+76 -> 17[color="blue"];
+0 -> 5[color="blue"];
+1 -> 17[color="blue"];
+12 -> 22[color="blue"];
+49 -> 54[color="blue"];
+71 -> 76[color="blue"];
+}
